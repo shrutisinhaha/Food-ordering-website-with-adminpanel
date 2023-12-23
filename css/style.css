@@ -1,0 +1,400 @@
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+}
+.img-responsive{ 
+    width: 80%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+    text-decoration: solid;
+    
+}
+
+.text-left{
+    text-align: left;
+}
+.text-saddlebrown{
+    color: saddlebrown;
+    font-weight: bolder;
+}
+ .clearfix{
+    clear: both;
+    float: none;
+} 
+p{
+    color:white;  
+}
+a{
+    color:white;
+    text-decoration: none;
+
+}
+a:hover{
+    color: grey;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color:saddlebrown;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: chocolate;
+     /* background-color: black; */
+} 
+.btn-secondary{
+    background-color: white ;
+}
+h2{
+    color: whitesmoke;
+    font-size: 3vw;
+    font-weight:bold;
+    margin-bottom: 2%;
+    padding:1%;
+}
+
+h3{
+    font-size: 1.5rem;
+    color:white;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSSS for navbar section */
+.navbar{
+    background-color: black;
+}
+.logo{
+    width: 20%;
+    margin:auto;
+    height:20%;
+    display:block;
+    padding :1%;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    font-size:xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center ; */
+    background-attachment: fixed;
+    padding: 7% 0;
+    height: 70vh;
+    color:white;
+
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border:#ff4757;
+    border-radius: 10px;
+    column-rule-color: white;
+    position:center;
+    background-color:white;
+}
+
+/* css for contact */
+.content-wrapper{
+    width:100%;
+    margin:auto;
+}
+.content-wrapper img{
+    width:100%;
+  
+}
+.text-black{
+    color: black;
+}
+.text-block h2{
+     font-size: 40px;
+    
+}
+.text-wrapper{
+    width:100%;
+    position:absolute;
+    margin-top:-55%;
+    margin-left: 20%;
+   
+}
+.text-wrapper-2{
+    width:100%;
+    position:absolute;
+    margin-top: 35%;
+    margin-left: 23%;
+   
+}
+.container-contact{
+    position: relative;
+}
+.text-block{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  /* margin: 10% auto; */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 5%;
+  padding-top:2%;
+  text-align: center;
+  text-decoration: solid;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-block-2{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    /* margin: 10% auto; */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5%;
+    padding-top:2%;
+    text-align: center;
+    text-decoration: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+.text-center{
+    font-size:xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+    background-color: black;
+    /* font-size:x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.text-center{
+    font-size:x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+/* .back-color{
+    background-color:saddlebrown;
+} */
+.food-menu{
+    background-color: saddlebrown;
+    padding: 4% 0;
+}
+
+h4{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    border-radius: 15px;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+     
+    
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+    /* background-color:black; */
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+    color:black;
+}
+.food-detail{
+    font-size: 1rem;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* CSS for Social */
+.social{
+    background-color: black;
+    
+}
+.social-box{
+    display:inline;
+    padding-right: 1%;
+}
+.social ul{
+    list-style-type: none;
+    display:inline;
+    
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 30%;
+    margin-left:35%;
+    margin-top: auto;
+    color:white;
+}
+.color{
+    color:white;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color:black;
+}
+.order-label{
+    margin-bottom: 10%; 
+    font-weight: bold;
+    color:white;
+    text-decoration-color: antiquewhite;
+}
+/* css for footer */
+.footer{
+    background-color: black;
+}
+
+
+
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+        width:100%;
+        height: 100%;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}

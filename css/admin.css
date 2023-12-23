@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.wrapper{
+    padding:1%;
+    width:80%;
+    margin:0 auto;
+}
+.text-center{
+    text-align:center;
+}
+.clearfix{
+    float:none;
+    clear:both;
+}
+.tbl-full{
+    width:100%;
+}
+.tbl-30{
+    width:30%;
+    
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding:2%;
+    text-align:left;
+}
+table tr td{
+    padding:2%;
+   
+}
+.btn-primary{
+    background-color: #1B1464;
+    padding:1%;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color:#5758BB;
+}
+.btn-secondary{
+    background-color: black;
+    padding:1%;
+    color:white; 
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: grey;
+}
+.btn-danger{
+    background-color: #F79F1F;
+    padding:1%;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.btn-danger:hover{
+    background-color: #FFC312;
+   
+}
+.success{
+    color: #5758BB;
+}
+.error{
+    color: #EA2027;
+}
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid black;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding:1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:saddlebrown;
+}
+.menu ul li a:hover{
+    color:chocolate;
+}
+/* CSS for main content */
+
+.main-content{
+    
+    background-color:white;
+    color:black;
+    padding:3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin:1%;
+    padding:2%;
+    color:black;
+    float: left;
+}
+
+
+/* CSS for footer */
+.footer{
+    background-color: saddlebrown;
+    color:white;
+}
+/* CSS for login */
+.navbar{
+    background-color: black;
+}
+.logo{
+    width: 20%;
+    margin:auto;
+    height:20%;
+    display:block;
+    padding :1%;
+}
+.img-responsive{ 
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    color:black;
+}
+.login{
+    width: 20%;
+    border: 1px solid black;
+    margin: 15% auto;  /*to move to center: top-bottom-5% and left-right-auto(center) */
+    padding: 2%;
+    background: rgb(0, 0, 0);/* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+}
+.font{
+    font-weight: bold;
+    font-size: x-large;
+}
+input[type="text"] {
+    width: 200px;
+    padding:2%;
+    
+    }
+ input[type="password"] {
+    width: 200px;
+    padding:2%;
+        
+ }
+.color{
+   background-image: url('../images/bg.jpg');
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+   
+/* .logo{
+    width: 5%;
+    margin:5% auto;
+    height:3%;
+    display:block;
+    padding :1%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+}   */ 
