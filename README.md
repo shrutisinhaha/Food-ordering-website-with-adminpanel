@@ -1,2 +1,1 @@
-# Food-Ordering-Website-with-AdminPanel-
-An Approachable food ordering website for customers as well as for owners of the restaurant to manage the website in backend using database.
+An approachable food ordering website for customers to make orders as well as for owners to manage their food website using database.
